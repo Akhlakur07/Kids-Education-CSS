@@ -152,6 +152,7 @@ main {
     background-color: #DDF3FC;
     margin-top: 50px;
     font-size: 20px;
+    color: #000;
 }
 
 .curriculum h2 {
@@ -493,7 +494,9 @@ main {
         font-size: 18px;
         font-weight: 700;
     }
-
+    .marq {
+        display: none;
+    }
 
     .curriculum h2 {
         font-size: 2.2rem;
