@@ -20,8 +20,8 @@ body {
 
 header,
 main {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 9%;
+    margin-right: 9%;
 }
 
 .navbar {
@@ -29,11 +29,22 @@ main {
     justify-content: space-between;
     background-color: white;
     align-items: center;
-    padding: 20px;
+    padding: 1.62rem 0 1.62rem 0;
 }
 
 .school {
     display: flex;
+}
+
+.school-name {
+    font-size: 2.6rem;
+    font-weight: 900;
+}
+
+.school-logo {
+    width: 5rem;
+    height: 5rem;
+    margin: auto auto auto 0;
 }
 
 .nav-links {
@@ -42,8 +53,8 @@ main {
 
 .nav-item {
     list-style: none;
-    margin-right: 1.875rem;
-    font-size: 1.25rem;
+    margin-right: 2.475rem;
+    font-size: 1.65rem;
     font-weight: 700;
 }
 
@@ -64,19 +75,71 @@ main {
 }
 
 .contact {
-    padding: 10px;
-    width: 197px;
-    height: 50px;
-    border-radius: 12px;
+    padding: 13.2px;
+    width: 260px;
+    height: 66px;
+    border-radius: 15.84px;
     background: rgb(254, 163, 1);
     border: none;
     color: rgb(255, 255, 255);
-    font-size: 20px;
+    font-size: 1.65rem;
     font-weight: 600;
 }
+
 .hamburger {
     display: none;
 }
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-content {
+    margin: auto auto auto 0;
+}
+
+.banner-content h2 {
+    margin: 0;
+    font-size: 4.62rem;
+    font-weight: 900;
+    line-height: 5rem;
+    margin-bottom: 1.98rem;
+}
+
+.emp {
+    color: rgb(254, 163, 1);
+}
+
+.vision {
+    color: rgb(1, 172, 253);
+}
+
+.banner-content p {
+    color: rgb(17, 17, 17);
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 25px;
+    margin: 0;
+    margin-bottom: 45px;
+}
+
+.enroll {
+    width: 16.2rem;
+    height: 4.11rem;
+    border-radius: 1rem;
+    background: rgb(17, 17, 17);
+    color: rgb(255, 255, 255);
+    font-size: 1.6rem;
+    font-weight: 550;
+    border: none;
+}
+
+.banner img {
+    width: 610px;
+    height: 760px;
+}
+
 
 
 @media screen and (max-width: 36rem) {
@@ -101,17 +164,18 @@ main {
         display: none;
     }
 
+    .hamburger {
+        display: block;
+        border: none;
+        background-color: transparent;
+    }
+
     .ham {
         width: 32px;
         height: 4px;
         background-color: black;
         margin: 6px 0;
         border-radius: 15px;
-    }
-
-    .hamburger {
-        border: none;
-        background-color: transparent;
     }
 
     .navbar {
