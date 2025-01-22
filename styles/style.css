@@ -10,10 +10,7 @@
 
 #background {
     background-image: url(/assets/bg.png),
-        linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 30%);
-    /* background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh; */
+        linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 70%);
 }
 
 
@@ -149,6 +146,12 @@ main {
     display: flex;
     justify-content: center;
     gap: 2.5rem;
+}
+
+.marq {
+    background-color: #DDF3FC;
+    margin-top: 50px;
+    font-size: 20px;
 }
 
 .curriculum h2 {
@@ -349,6 +352,63 @@ main {
     border-top-right-radius: 16px;
 }
 
+.story-view {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.foot {
+    display: flex;
+    background: rgb(1, 172, 253);
+    height: 459px;
+    color: white;
+    padding: 160px;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+.ed-head h2 {
+    font-size: 3.465rem;
+    font-weight: 900;
+    margin: 0;
+}
+
+.ed-head {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 60px;
+}
+
+.education {
+    width: 528px;
+}
+
+.ed-head img {
+    width: 108px;
+    height: 108px;
+}
+
+
+.ed-p {
+    font-size: 1.65rem;
+    font-weight: 500;
+}
+
+.about h3 {
+    font-size: 1.98rem;
+    font-weight: 900;
+}
+
+.about p {
+    font-size: 1.68rem;
+    font-weight: 500;
+}
+
+.touch h3 {
+    font-size: 2.145rem;
+    font-weight: 900;
+}
 
 
 @media screen and (max-width: 36rem) {
@@ -360,7 +420,7 @@ main {
         margin-left: 10%;
         margin-right: 10% ;
     } */
-    
+
     .school h3 {
         display: none;
     }
@@ -488,7 +548,7 @@ main {
 
     .story-rest {
         grid-template-columns: repeat(2, 1fr);
-        gap: 6px;
+        gap: 20px;
     }
 
     .story-r {
@@ -513,5 +573,58 @@ main {
         font-size: 9.13px;
         margin-top: 20px;
         margin-left: 20px;
+    }
+
+    .foot {
+        flex-direction: column;
+        height: auto;
+        width: auto;
+        justify-content: flex-start;
+        padding: 0;
+        padding-left: 20px;
+        padding-top: 22px;
+        padding-bottom: 20px;
+        margin-top: 120px;
+    }
+
+    .ed-head img {
+        width: 69.23px;
+        height: 69.23px;
+    }
+
+    .ed-head {
+        width: 0;
+    }
+
+    .ed-head h2 {
+        font-size: 35.73px;
+        font-weight: 700;
+    }
+
+    .ed-p {
+        font-size: 18px;
+        font-weight: 400;
+        margin-top: 0;
+        line-height: 30px;
+        text-align: left;
+    }
+
+    .education {
+        width: auto;
+    }
+
+    .about h3 {
+        font-size: 24.04px;
+        font-weight: 600;
+    }
+
+    .about p {
+        font-size: 16.96px;
+        font-weight: 500;
+    }
+
+    .touch h3 {
+        font-size: 24.04px;
+        font-weight: 700;
     }
 }
