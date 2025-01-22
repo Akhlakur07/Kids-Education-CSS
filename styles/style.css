@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
 .quicksand-font {
     font-family: "Quicksand", serif;
     font-optical-sizing: auto;
@@ -13,7 +14,12 @@
     height: 100vh;
 }
 
-header, main {
+body {
+    margin: 0;
+}
+
+header,
+main {
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -23,6 +29,7 @@ header, main {
     justify-content: space-between;
     background-color: white;
     align-items: center;
+    padding: 20px;
 }
 
 .school {
@@ -36,4 +43,84 @@ header, main {
 .nav-item {
     list-style: none;
     margin-right: 1.875rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+#nav-home {
+    color: rgb(254, 163, 1);
+}
+
+#nav-about {
+    color: rgb(1, 172, 253);
+}
+
+#nav-facilities {
+    color: rgb(5, 212, 223);
+}
+
+#nav-admission {
+    color: rgb(93, 88, 239);
+}
+
+.contact {
+    padding: 10px;
+    width: 197px;
+    height: 50px;
+    border-radius: 12px;
+    background: rgb(254, 163, 1);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+}
+.hamburger {
+    display: none;
+}
+
+
+@media screen and (max-width: 36rem) {
+    header {
+        margin: 0;
+    }
+
+    main {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .school h3 {
+        display: none;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .contact {
+        display: none;
+    }
+
+    .ham {
+        width: 32px;
+        height: 4px;
+        background-color: black;
+        margin: 6px 0;
+        border-radius: 15px;
+    }
+
+    .hamburger {
+        border: none;
+        background-color: transparent;
+    }
+
+    .navbar {
+        padding: 1rem;
+        border-bottom: 0.5px solid rgb(254, 163, 1);
+    }
+
+    .school img {
+        width: 46px;
+        height: 46px;
+    }
 }
